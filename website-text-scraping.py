@@ -13,6 +13,7 @@ print("Title:", soup.title.get_text(strip=True) if
 print("\nText:")
 print(soup.get_text("", strip=True))
 
+#with few lines of code
 #pip install requests beautifulsoup4
 
 
